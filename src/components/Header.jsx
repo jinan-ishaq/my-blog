@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <section className="p-8 font-raleway text-center">

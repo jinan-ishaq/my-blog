@@ -1,8 +1,24 @@
-# React + Vite
+# Blog-Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**I have created a responsive Blog webpage using React + Vite**.This is my own solution to the [My Blog template on w3schools](https://www.w3schools.com/w3css/tryw3css_templates_blog.htm).
 
-Currently, two official plugins are available:
+![Blog webpage](./src/assets/desktop_view.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Live Demo
+
+- (https://jinan-ishaq.github.io/my-blog/)
+
+# Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+
+# Installation
+
+    1. Clone the repo: used ***git clone https://github.com/jinan-ishaq/my-blog.git***
+    2. Navigate to the project folder: used ***cd myBlog***
+    3. Install the dependencies: used ***npm install***
+    4. Start the development server: used ***npm run dev***
+    5. Open your browser and go to: used ***http://localhost:5173/***

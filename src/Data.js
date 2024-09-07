@@ -33,25 +33,25 @@ export const POSTS_DATA = [
     id: 1,
     image: gondol,
     title: "Lorem",
-    decription: "Sed mattis nunc",
+    description: "Sed mattis nunc",
   },
   {
     id: 2,
     image: workshop,
     title: "Ipsum",
-    decription: "Praes tinci sed",
+    description: "Praes tinci sed",
   },
   {
     id: 3,
     image: skies,
     title: "Dorum",
-    decription: "Ultricies congue",
+    description: "Ultricies congue",
   },
   {
     id: 4,
     image: rock,
     title: "Mingsum",
-    decription: "Lorem ipsum dipsum",
+    description: "Lorem ipsum dipsum",
   },
 ];
 

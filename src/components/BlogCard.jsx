@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types';
 
 const BlogCard = ({img,title,subTitle,description,date,commentsCount, wrapper}) => {
   const Wrapper = wrapper;
@@ -18,7 +18,7 @@ const BlogCard = ({img,title,subTitle,description,date,commentsCount, wrapper}) 
             {description}
           </p>
           <section className="flex justify-between	items-baseline text-base" >
-            <button className="mt-8 font-semibold border py-3 px-5	">{`READ MORE >>`}</button>
+            <button className="mt-8 font-semibold border py-3 px-5 hover:bg-[#ccc]	">{`READ MORE>>`}</button>
             <section className="hidden md:flex mx-6 ">
               <span className="font-semibold ">Comments</span>
               <span className={commentsCount ? "bg-black text-white px-2 ml-3 rounded-[50%]" : "bg-black text-white px-2 ml-3"}>{commentsCount}</span>
@@ -27,6 +27,16 @@ const BlogCard = ({img,title,subTitle,description,date,commentsCount, wrapper}) 
         </section>
     </Wrapper>
   );
+};
+
+BlogCard.propTypes = {
+  img: PropTypes.string.isRequired,
+  title:PropTypes.string.isRequired,
+  subTitle:PropTypes.string.isRequired,
+  description:PropTypes.string.isRequired,
+  date:PropTypes.string.isRequired,
+  commentsCount:PropTypes.number.isRequired,
+  wrapper:PropTypes.string.isRequired,
 };
 
 export default BlogCard;
