@@ -6,7 +6,7 @@
 
 # Live Demo
 
-- (https://jinan-ishaq.github.io/my-blog/)
+- https://jinan-ishaq.github.io/my-blog/
 
 # Technologies Used
 
@@ -17,8 +17,8 @@
 
 # Installation
 
-    1. Clone the repo: used ***git clone https://github.com/jinan-ishaq/my-blog.git***
-    2. Navigate to the project folder: used ***cd myBlog***
-    3. Install the dependencies: used ***npm install***
-    4. Start the development server: used ***npm run dev***
-    5. Open your browser and go to: used ***http://localhost:5173/***
+    1. Clone the repo: git clone https://github.com/jinan-ishaq/my-blog.git
+    2. Navigate to the project folder: cd myBlog
+    3. Install the dependencies: npm install
+    4. Start the development server: npm run dev
+    5. Open your browser and go to: http://localhost:5173/
